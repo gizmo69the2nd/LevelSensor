@@ -26,7 +26,7 @@ class Level
     float get(); //Measure level, return in cm
     float get(uint8_t unit);
     float getRaw(); //Measure level, return in voltage
-    void setADCResolution(int); //Set ADC bit resolution default 10bits = 1023
+    void setADCResolution(int resolution); //Set ADC bit resolution default 10bits = 1023
 
   private:
     uint8_t _pin;
